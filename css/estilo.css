@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+h1{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+}
+
+img{
+    height: 25px;
+    width: 25px;
+}
+
+.medalhas{
+    height: 20px;
+    width: 20px;;
+}
+
+td {
+    text-align: center;
+    width: 30px;
+}
+
+.pais {
+    text-align: left;
+    width: 200px;
+}
+
+td:nth-child(1) {
+    width: 15px;
+}
+
+td:nth-child(3){
+    text-align: left;
+    width: 20px;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+tr:hover {
+    background-color: aqua;
+  }
+
